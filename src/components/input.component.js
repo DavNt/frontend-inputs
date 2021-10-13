@@ -24,39 +24,39 @@ export default class InputSec extends Component{
           <div className="col-sm-9">
             <h3 className="m-4 mt-5">Inputs</h3>
             <div className="row">
-              <div className="col-md-2 m-3">
+              <div className="col-sm-2 m-3">
                 <label
                  for="textbox1" 
                  className="form-label"
                 >
                   Label
-                </label>
+                </label><br/>
                 <input 
                   type="text" className="input_field hov" 
                   id="textbox1" 
                   placeholder="Placeholder"
                 />
               </div>
-              <div className="col-md-2 m-3 ms-5">
+              <div className="col-sm-2 m-3 ms-5">
                 <label
                  for="textbox1" 
                  className="form-label blck-txt"
                 >
                   Label
-                </label>
+                </label><br/>
                 <input 
                   type="text" className="input_field blck-input" 
                   id="textbox1" 
                   placeholder="Placeholder"
                 />
               </div>
-              <div className="col-md-2 m-3 ms-5">
+              <div className="col-sm-2 m-3 ms-5">
                 <label
                  for="textbox1" 
                  className="form-label blu-txt"
                 >
                   Label
-                </label>
+                </label><br/>
                 <input 
                   type="text" className="input_field blu-input" 
                   id="textbox1" 
@@ -66,39 +66,39 @@ export default class InputSec extends Component{
             </div>
 
             <div className="row">
-              <div className="col-md-2 m-3">
+              <div className="col-sm-2 m-3">
                 <label
                  for="textbox1" 
                  className="form-label error-txt"
                 >
                   Label
-                </label>
+                </label><br/>
                 <input 
                   type="text" className="input_field error-input" 
                   id="textbox1" 
                   placeholder="Placeholder"
                 />
               </div>
-              <div className="col-md-2 m-3 ms-5">
+              <div className="col-sm-2 m-3 ms-5">
                 <label
                  for="textbox1" 
                  className="form-label blck-txt "
                 >
                   Label
-                </label>
+                </label><br/>
                 <input 
                   type="text" className="input_field blck-input " 
                   id="textbox1" 
                   placeholder="Placeholder"
                 />
               </div>
-              <div className="col-md-2 m-3 ms-5">
+              <div className="col-sm-2 m-3 ms-5">
                 <label
                  for="textbox1" 
                  className="form-label error-txt"
                 >
                   Label
-                </label>
+                </label><br/>
                 <input 
                   type="text" className="input_field error-input " 
                   id="textbox1" 
@@ -108,13 +108,13 @@ export default class InputSec extends Component{
             </div>
 
             <div className="row">
-              <div className="col-md-2 m-3">
+              <div className="col-sm-2 m-3">
                 <label
                  for="textbox1" 
                  className="form-label"
                 >
                   Label
-                </label>
+                </label><br/>
                 <input 
                   type="text" className="input_field" 
                   id="textbox1" 
@@ -125,13 +125,13 @@ export default class InputSec extends Component{
             </div>
 
             <div className="row">
-              <div className="col-md-2 m-3">
+              <div className="col-sm-2 m-3">
                 <label
                  for="textbox1" 
                  className="form-label"
                 >
                   Label
-                </label>
+                </label><br/>
                 <input 
                   type="text" className="input_field hov" 
                   id="textbox1" 
@@ -139,13 +139,13 @@ export default class InputSec extends Component{
                 />
                 <small className="">Interesting text</small>
               </div>
-              <div className="col-md-2 m-3 ms-5">
+              <div className="col-sm-2 m-3 ms-5">
                 <label
                  for="textbox1" 
                  className="form-label error-txt"
                 >
                   Label
-                </label>
+                </label><br/>
                 <input 
                   type="text" className="input_field error-input" 
                   id="textbox1" 
@@ -156,13 +156,13 @@ export default class InputSec extends Component{
             </div>
 
             <div className="row">
-              <div className="col-md-2 m-3 ">
+              <div className="col-sm-2 m-3 ">
                   <label
                   for="textbox1" 
                   className="form-label"
                   >
                     Label
-                  </label>
+                  </label><br/>
                   <div className="input-group">
                     <i class=" ic-add">
                       <img 
@@ -178,13 +178,13 @@ export default class InputSec extends Component{
                     />
                   </div>
                 </div>
-              <div className="col-md-2 m-3 ms-5">
+              <div className="col-sm-2 m-3 ms-5">
                   <label
                   for="textbox1" 
                   className="form-label"
                   >
                     Label
-                  </label>
+                  </label><br/>
                   <div className="input-group">
                     <input 
                       type="text" className="input_field hov" 
@@ -203,13 +203,13 @@ export default class InputSec extends Component{
             </div>
 
             <div className="row">
-              <div className="col-md-2 m-3">
+              <div className="col-sm-2 m-3">
                 <label
                  for="textbox1" 
                  className="form-label"
                 >
                   Label
-                </label>
+                </label><br/>
                 <input 
                   type="text" className="input_field hov" 
                   id="textbox1" 
@@ -219,13 +219,13 @@ export default class InputSec extends Component{
             </div>
 
             <div className="row">
-              <div className="col-md-2 m-3">
+              <div className="col-sm-2 m-3">
                 <label
                  for="textbox1" 
                  className="form-label"
                 >
                   Label
-                </label>
+                </label><br/>
                 <input 
                   type="text" 
                   className="input_field form-control-sm hov" 
@@ -233,13 +233,13 @@ export default class InputSec extends Component{
                   placeholder="Placeholder"
                 />
               </div>
-              <div className="col-md-2 m-3 ms-5">
+              <div className="col-sm-2 m-3 ms-5">
                 <label
                  for="textbox1" 
                  className="form-label"
                 >
                   Label
-                </label>
+                </label><br/>
                 <input 
                   type="text" 
                   className="input_field form-control-md hov" 
@@ -266,13 +266,13 @@ export default class InputSec extends Component{
             </div>
 
             <div className="row">
-            <div className="col-md-2 m-3">
+            <div className="col-sm-2 m-3">
                 <label
                  for="textbox1" 
                  className="form-label"
                 >
                   Label
-                </label>
+                </label><br/>
                 <textarea 
                   type="text" className="input_field hov" 
                   id="textbox1" 
