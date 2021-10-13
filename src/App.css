@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Heebo|Montserrat|Poppins&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  font-family: 'Poppins', monospace;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dev_color{
+  color: #F7542E;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg_grey{
+  background-color: #FAFBFD;
 }
-
-.App-link {
-  color: #61dafb;
+.input_field { 
+  /* font-weight: 600; */
+  color: #828282;
+  padding: 10px; 
+  border: 1px solid #828282;
+  /* box-sizing: border-box; */
+  border-radius: 10px; 
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.blck-input{
+  border: 1px solid #333333;
+}
+.blck-txt{
+  color: #333333;
+}
+.blu-txt{
+  color: #2962FF;
+}
+.blu-input{
+  border: 1px solid #2962FF;
+}
+.error-txt{
+  color: #ee0e06;
+}
+.error-input{
+  border: 1px solid #ee0e06;
+}
+.txt_indent{
+  text-indent: 20%;
+}
+.ic-add{
+  position: absolute;
+}
+.icon-img{
+  width: 45px;
+  padding: 8px;
+}
+.ic_right{
+  margin-left: 160px;
+}
+.full_width{
+  width: 100%;
+}
+.hov:hover{
+  border: 1px solid #7295f3;
 }
